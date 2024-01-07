@@ -1,0 +1,151 @@
+/* general */
+
+html,
+body,
+.outer-row {
+  background-color: #cd5c5c;
+  height: 100%;
+  box-sizing: border-box;
+}
+html {
+  min-width: 360px;
+}
+
+.outer-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* ------------- Content column --------------- */
+.content-column {
+  box-sizing: border-box;
+  user-select: none;
+  color: black;
+  font-family: Inter, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* SmallScreen */
+@media screen and (max-width: 1279px) {
+  .content-column {
+    padding: 52px 20px;
+    width: 100%;
+    max-width: 720px;
+  }
+}
+
+/* BigScreen */
+@media screen and (min-width: 1280px) {
+  .content-column {
+    padding: 52px 32px;
+    width: 100%;
+    min-width: 1280px;
+    max-width: 1440px;
+    text-align: center;
+  }
+}
+
+/* ------------- Logo --------------- */
+
+.logo-text {
+  text-align: center;
+  /* HeadlineS */
+  font-family: sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 100% */
+}
+
+/* ------------- Error text --------------- */
+
+.heading {
+  user-select: none;
+  color: white;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* SmallScreen */
+@media screen and (max-width: 1279px) {
+  .heading {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    font-size: 152px;
+    line-height: 128px; /* 84.211% */
+  }
+}
+
+/* BigScreen */
+@media screen and (min-width: 1280px) {
+  .heading {
+    font-size: 337.515px;
+    line-height: 464.769px; /* 137.703% */
+  }
+}
+
+/* ------------- Text --------------- */
+
+.explanation {
+  color: black;
+}
+
+/* SmallScreen */
+@media screen and (max-width: 1279px) {
+  .explanation {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.64px;
+  }
+}
+
+/* BigScreen */
+@media screen and (min-width: 1280px) {
+  .explanation {
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.88px;
+  }
+}
+/* ------------- Button --------------- */
+.button-outer {
+  margin-top: 40px;
+}
+
+.button {
+  background-color: black;
+  transition: background-color 0.2s ease-in-out;
+  padding: 14px 24px;
+  border-radius: 100px;
+
+  /* label */
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+}
+
+.button:hover {
+  background-color: #1a1a1a;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* SmallScreen */
+@media screen and (max-width: 1279px) {
+  .button {
+    display: block;
+  }
+}

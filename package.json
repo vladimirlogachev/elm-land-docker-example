@@ -1,0 +1,24 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "elm-land generate && vite",
+    "build": "elm-land generate && vite build"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "elm": "latest-0.19.1",
+    "elm-land": "^0.19.5",
+    "vite": "^4.4.9",
+    "vite-plugin-elm": "^2.8.0-beta.3"
+  },
+  "dependencies": {
+  },
+  "engines": {
+    "npm": ">=10.2.3 <11.0.0",
+    "node": ">=20.10.0 <21.0.0"
+  }
+}

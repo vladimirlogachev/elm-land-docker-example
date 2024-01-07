@@ -1,0 +1,5 @@
+/dist
+/.elm-land
+/.env
+/elm-stuff
+/node_modules
