@@ -44,7 +44,7 @@ jobs:
         id: meta-webapp
         uses: docker/metadata-action@v4
         with:
-          images: ${{ env.REGISTRY }}/vladimirlogachev/elm-land-docker-example
+          images: ${{ env.REGISTRY }}/vladimirlogachev/elm-land-docker
           tags: ${{ env.TAGS }}
 
       - name: Build and push Docker image
