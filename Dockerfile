@@ -1,6 +1,7 @@
 # Note: `linux/amd64` is a workaround, because elm compiler is not available for `linux/arm64` yet.
 # See https://github.com/elm/compiler/issues/2283 for details
-FROM --platform=linux/amd64 node:20.10-alpine as builder
+# Upd: 0.19.1-6 claims to support arm64, but this Docker build fails.
+FROM --platform=linux/amd64 node:20.12-alpine as builder
 WORKDIR /app
 
 # Install dependencies
