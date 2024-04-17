@@ -12,7 +12,7 @@
   "license": "MIT",
   "devDependencies": {
     "elm": "0.19.1-6",
-    "elm-land": "^0.20.0",
+    "elm-land": "^0.20.1",
     "vite": "^5.2.8",
     "vite-plugin-elm": "^3.0.0"
   },
