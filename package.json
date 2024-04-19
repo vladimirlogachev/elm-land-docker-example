@@ -11,12 +11,13 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "autoprefixer": "^10.4.19",
     "elm": "0.19.1-6",
     "elm-land": "^0.20.1",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
     "vite": "^5.2.8",
     "vite-plugin-elm": "^3.0.0"
-  },
-  "dependencies": {
   },
   "engines": {
     "npm": ">=10.2.3 <11.0.0",

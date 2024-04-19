@@ -77,6 +77,7 @@ view shared model =
             , Html.Attributes.style "flex-direction" "row"
             , Html.Attributes.style "flex-wrap" "wrap"
             , Html.Attributes.style "gap" "80px"
+            , Html.Attributes.class "bg-red-300" -- Tailwind
             ]
             [ viewAssetExample
             , viewApiRequestExample shared model
